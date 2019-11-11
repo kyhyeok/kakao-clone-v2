@@ -1,44 +1,29 @@
-.friend {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.friends .friends__plus {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
 }
 
-.friend .friend__avatar {
-  width: 55px;
-  border-radius: 38%;
-  margin-right: 15px;
-}
-
-.friend__avatar.g-avatar {
-  width: 75px;
-}
-
-.friend__avatar.m-avatar {
-  width: 65px;
-}
-
-.friend .friend__column {
-  display: flex;
-  align-items: center;
-}
-
-.friend__content .friend__name {
-  display: block;
-  margin-bottom: 6px;
-}
-
-.friend__content .friend__status,
-.friend__content .friend__bottom-text,
-.friend .chat__timestamp {
+.friends__plus .friends__title,
+.friends__list .friends__title {
+  font-size: 14px;
   opacity: 0.6;
+  margin-bottom: 10px;
 }
 
-.friend__content .friend__bottom-text {
+.friend .friend__now-listening {
+  border: 2px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 15px;
   font-size: 14px;
 }
 
-.friend__content .friend__status,
-.friend .chat__timestamp {
+.friend__now-listening span {
+  opacity: 0.6;
+}
+
+.friend__now-listening span i {
+  color:#52e084;
   font-size: 12px;
 }
